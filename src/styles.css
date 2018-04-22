@@ -34,3 +34,20 @@ body {
 .fadeIn {
   animation-name: fadeIn;
 }
+
+.icoPic {
+  width: 75px;
+}
+
+.imgCasa {
+  height: 50px;
+}
+.dcBar {
+  text-align: center;
+  background-color: white;
+}
+
+.marvelBar {
+  text-align: center;
+  background-color: red;
+}

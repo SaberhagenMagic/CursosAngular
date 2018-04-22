@@ -1,3 +1,13 @@
-<p>
-  heroe works!
-</p>
+<div class="jumbotron">
+    <h1 class="display-4">
+        <img [src]="heroe.img" [alt]="heroe.nombre" class="rounded-circle icoPic">
+      {{ heroe.nombre }} <small>( {{ heroe.aparicion }} )</small>
+    </h1>
+    <div *ngIf="heroe.casa == 'DC'" class="dcBar"> <img src="../../../assets/img/DC.png" alt="DC" class="imgCasa"> </div>
+    <div *ngIf="heroe.casa == 'Marvel'" class="marvelBar"> <img src="../../../assets/img/Marvel.png" alt="Marvel" class="imgCasa"> </div>
+    <hr class="my-4">
+    <p><em>{{ heroe.bio }}</em></p>
+    <p class="lead">
+      <a [routerLink]="['/heroes']" class="btn bnt-outline-danger btn-block">Volver</a>
+    </p>
+  </div>
