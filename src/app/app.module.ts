@@ -17,6 +17,7 @@ import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
 import { FiltroComponent } from './components/filtro/filtro.component';
+import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { FiltroComponent } from './components/filtro/filtro.component';
     HeroesComponent,
     HeroeComponent,
     FiltroComponent,
+    HeroeTarjetaComponent
   ],
   imports: [
     BrowserModule,
